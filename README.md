@@ -1,3 +1,9 @@
+# 引用于：
+https://github.com/titu1994/Keras-ResNeXt
+
+# changelog
+1. 2019.9.29: 改变restnext.py以适应 keras 2.3.0
+
 # Keras ResNeXt
 
 Implementation of ResNeXt models from the paper [Aggregated Residual Transformations for Deep Neural Networks](https://arxiv.org/pdf/1611.05431.pdf) in Keras 2.0+.
