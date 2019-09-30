@@ -35,7 +35,7 @@ IMAGENET_TH_WEIGHTS_PATH_NO_TOP = ''
 IMAGENET_TF_WEIGHTS_PATH_NO_TOP = ''
 
 
-def ResNext(input_shape=None, depth=29, cardinality=8, width=64, weight_decay=5e-4,
+def ResNeXt(input_shape=None, depth=29, cardinality=8, width=64, weight_decay=5e-4,
             include_top=True, weights=None, input_tensor=None,
             pooling=None, classes=10):
     """Instantiate the ResNeXt architecture. Note that ,
@@ -570,5 +570,5 @@ def __create_res_next_imagenet(nb_classes, img_input, include_top, depth, cardin
 
 
 if __name__ == '__main__':
-    model = ResNext((32, 32, 3), depth=29, cardinality=8, width=64)
+    model = ResNeXt((32, 32, 3), depth=29, cardinality=8, width=64)
     model.summary()
